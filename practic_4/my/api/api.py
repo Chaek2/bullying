@@ -1,6 +1,7 @@
 from flask import Flask, jsonify
 import mysql.connector
-cnxn = mysql.connector.connect(host='mysql', port='3306',user="root",password= "password",database= "time_db")
+
+cnxn = mysql.connector.connect(host='mysql', port='3306',user="root",password= "password",database= "time_db", autocommit=True)
 print('DB CONNECTED')
 
 app = Flask(__name__)
