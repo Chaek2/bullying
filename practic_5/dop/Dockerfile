@@ -7,7 +7,6 @@ openjdk-8-jdk \
 xauth \
 && rm -rf /var/lib/apt/lists/*
 
-
-ENV DISPLAY=:0
+ENV DISPLAY=host.docker.internal:0
 
 CMD ["java","-jar","/new/calc.jar"]
