@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "A1P3n0+fhcn2skJSY5XPSjJV43xSFT4HZ8zEjOER6RY8CISK63OREhxgCOTcCrsQZIveyouTMTUntNNuljB7jw==",
+  "dgSpecHash": "iTbVfn96FgUSayJUnRLVODcntb6DXXrujOIeaV+3ZPJ2VGiCtssyV961YWX1antGR50Jqy398pF/xtYcPfD/gQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Anton\\Desktop\\Обеспечение качества функционирования КС\\practic_6\\4\\WebApILinux\\WebApILinux\\WebApILinux.csproj",
+  "projectFilePath": "C:\\Users\\Anton\\Documents\\GitHub\\bullying\\practic_6\\4\\WebApILinux\\WebApILinux\\WebApILinux.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Anton\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.19.4\\microsoft.visualstudio.azure.containers.tools.targets.1.19.4.nupkg.sha512"
   ],
