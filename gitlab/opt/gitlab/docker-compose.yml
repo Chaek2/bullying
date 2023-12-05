@@ -1,0 +1,30 @@
+version: '3'
+services:
+  gitlab:
+    image: gitlab/gitlab-ce:latest
+    restart: always
+    environment:
+      GITLAB_OMNIBUS_CONFIG: |
+        gitlab_rails['gitlab_shell_ssh_port'] = 8456
+    ports:
+    - "8999:80"
+    - "8456:22"
+    volumes:
+    - '/config:/etc/gitlab'
+    - '/logs:/var/log/gitlab'
+    - '/data:/var/opt/gitlab'
+    networks:
+    - gitlab_net
+    shm_size: '256m'
+
+  gitlab-runner:
+    image: gitlab/gitlab-runner:latest
+    restart: always
+    volumes:
+    - './run/docker.sock:/var/run/docker.sock'
+    - './gitlab-runner:/etc/gitlab-runner'
+    networks:
+    - gitlab_net
+
+networks:
+  gitlab_net:
