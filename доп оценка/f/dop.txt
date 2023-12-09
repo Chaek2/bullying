@@ -7,3 +7,4 @@ sudo apt-add-repository "deb http://dl.winehq.org/wine-builds/ubuntu/ $(lsb_rele
 sudo apt update
 sudo apt install -y --install-recommends winehq-stable
 sudo apt install -y winetricks
+wine DOCK.exe
