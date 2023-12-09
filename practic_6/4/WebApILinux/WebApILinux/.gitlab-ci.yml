@@ -1,10 +1,24 @@
 stages:
+  - build
   - test
+  - check
 
+check:
+  stage: check
+  dependencies:
+    - test
+  script:
+    - 
 
-test-job:
+build:
+  stage: build
+  dependencies:
+    - check
+  script:
+    - dotnet build --configuration Release
+    - dotnet publish --no-build --no-restore --configuration Release --output $CI_PROJECT_DIR/publish/
+
+test:
   stage: test
   script:
-  - echo "Running test job"
-  - echo "This is a test job to verify the gitlab CI Runner setup"
-  - echo "Add your commands"
+    - echo "Running test job"

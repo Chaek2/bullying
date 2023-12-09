@@ -22,5 +22,14 @@ shutdown_timeout = 0
   token_obtained_at = 2023-12-05T20:59:18Z
   token_expires_at = 0001-01-01T00:00:00Z
   executor = "shell"
+
+[[runners]]
+  name = "first"
+  url = "http://5a48208e620d/"
+  id = 1
+  token = "EhJqPkVm6ukPc6veaE-s"
+  token_obtained_at = 2023-12-09T18:46:29Z
+  token_expires_at = 0001-01-01T00:00:00Z
+  executor = "shell"
   [runners.cache]
     MaxUploadedArchiveSize = 0

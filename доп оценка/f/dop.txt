@@ -1,0 +1,9 @@
+docker build -t wpf .
+docker run -it wpf
+
+sudo dpkg --add-architecture i386
+wget -qO- https://dl.winehq.org/wine-builds/winehq.key | sudo gpg --dearmor -o /etc/apt/trusted.gpg.d/winehq.key.gpg
+sudo apt-add-repository "deb http://dl.winehq.org/wine-builds/ubuntu/ $(lsb_release -cs) main"
+sudo apt update
+sudo apt install -y --install-recommends winehq-stable
+sudo apt install -y winetricks
