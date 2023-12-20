@@ -6,5 +6,8 @@ RUN apt update && \
     wget \
     gpg \
     snapd \
+    nano \
+    xrdp \
     software-properties-common
+EXPOSE 3389
 ENV DISPLAY=host.docker.internal:0
