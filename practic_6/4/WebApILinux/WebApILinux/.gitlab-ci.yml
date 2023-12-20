@@ -7,7 +7,7 @@ build:
   stage: build
   before_script:
     - 'dotnet restore'
-  needs:
+  dependencies:
     - test
   script:
     - dotnet build
@@ -19,10 +19,11 @@ test:
 
 release:
   stage: release
-  needs:
+  dependencies:
     - build
   before_script:
     - 'dotnet restore'
   script:
     - dotnet build -c Release
-    - dotnet publish -c Release -o $CI_PROJECT_DIR/publish/ ./WebApILinux.csproj
+    - dotnet publish -c Release -o $CI_PROJECT_DIR/publish/ ./PR6-Docker.csproj
+    
