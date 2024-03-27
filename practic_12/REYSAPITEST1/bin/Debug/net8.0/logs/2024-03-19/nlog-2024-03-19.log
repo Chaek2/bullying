@@ -1,0 +1,5 @@
+2024-03-19 22:14:53.8571|INFO|Program|My API Start
+2024-03-19 22:15:35.5290|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\Anton\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-03-19 22:17:27.2971|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7275
+2024-03-19 22:17:37.4147|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5062
+2024-03-19 22:18:58.3235|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.

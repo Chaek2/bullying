@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Anton\\Documents\\GitHub\\Diplom\\REYSAPITEST1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8AB00B29-4D84-4FF6-834E-E00F88F30A53}|REYSAPITEST1.csproj|c:\\users\\anton\\documents\\github\\diplom\\reysapitest1\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8AB00B29-4D84-4FF6-834E-E00F88F30A53}|REYSAPITEST1.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8AB00B29-4D84-4FF6-834E-E00F88F30A53}|REYSAPITEST1.csproj|c:\\users\\anton\\documents\\github\\diplom\\reysapitest1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8AB00B29-4D84-4FF6-834E-E00F88F30A53}|REYSAPITEST1.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8AB00B29-4D84-4FF6-834E-E00F88F30A53}|REYSAPITEST1.csproj|c:\\users\\anton\\documents\\github\\diplom\\reysapitest1\\models\\reyscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8AB00B29-4D84-4FF6-834E-E00F88F30A53}|REYSAPITEST1.csproj|solutionrelative:models\\reyscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ReysContext.cs",
+              "DocumentMoniker": "C:\\Users\\Anton\\Documents\\GitHub\\Diplom\\REYSAPITEST1\\Models\\ReysContext.cs",
+              "RelativeDocumentMoniker": "Models\\ReysContext.cs",
+              "ToolTip": "C:\\Users\\Anton\\Documents\\GitHub\\Diplom\\REYSAPITEST1\\Models\\ReysContext.cs",
+              "RelativeToolTip": "Models\\ReysContext.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAswCcAAADxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-16T14:39:28.392Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Anton\\Documents\\GitHub\\Diplom\\REYSAPITEST1\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\Anton\\Documents\\GitHub\\Diplom\\REYSAPITEST1\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAADWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-03-16T12:42:21.592Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\Anton\\Documents\\GitHub\\Diplom\\REYSAPITEST1\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "C:\\Users\\Anton\\Documents\\GitHub\\Diplom\\REYSAPITEST1\\appsettings.Development.json",
+              "RelativeToolTip": "appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-03-16T12:42:19.679Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
