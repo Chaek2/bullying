@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("REYSAPITEST1")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+39a82972e4191c28c6de2cebc9b29b5638c292c6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2f64eaeff1964530172c5f9e300675573ebb4078")]
 [assembly: System.Reflection.AssemblyProductAttribute("REYSAPITEST1")]
 [assembly: System.Reflection.AssemblyTitleAttribute("REYSAPITEST1")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
